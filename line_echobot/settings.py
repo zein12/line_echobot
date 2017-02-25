@@ -23,9 +23,9 @@ def get_env_variable(var_name):
 try:
     from .settings_secret import *
 except ImportError:
-    SECRET_KEY = get_env_variable('SECRET_KEY')
-    LINE_CHANNEL_ACCESS_TOKEN = get_env_variable('LINE_CHANNEL_ACCESS_TOKEN')
-    LINE_CHANNEL_SECRET = get_env_variable('LINE_CHANNEL_SECRET')
+    SECRET_KEY = get_env_variable('1497601714')
+    LINE_CHANNEL_ACCESS_TOKEN = get_env_variable('3/cEBpOR0mjAMUtnHKrSrx3N6FnMVNPYfXBIwMO6HNGaljxuxTxZz2fGrmZYFwqfV3dvAWMa7FEGrmOONfbZ7or1wxYgpjbtFMS0Mkk+RftjvYSrUpThxAHGiivf2M662z2zM5P8BSKby0dJiBG3GQdB04t89/1O/w1cDnyilFU=')
+    LINE_CHANNEL_SECRET = get_env_variable('a6b4b1a80d9f25eb0a719fc92cef7d86')
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
